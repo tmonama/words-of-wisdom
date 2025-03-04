@@ -488,6 +488,13 @@ form select {
     height: 45px;
     margin-bottom: 0px;
     margin-top: 0;
+    border: 1px solid #707070;
+    border-radius: 2px;
+}
+
+form input:hover,
+form select:hover {
+    border: 1.5px solid #1E1E1E;
 }
 
 form div {
@@ -511,6 +518,21 @@ form textarea {
 #submit {
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: #FCA110;
+    border: 1px solid #D38133;
+    width: 120px;
+}
+
+#submit:hover {
+    background-color: #79c0fa;
+    border: 1px solid #1893F8;
+    box-shadow: 0 1px 1px #1E1E1E;
+    cursor: pointer;
+}
+
+#submit:active {
+    background-color: rgb(35, 156, 255);
+    border: 1px solid #1893F8;
 }
 
 .names,
