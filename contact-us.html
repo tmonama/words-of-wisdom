@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+        rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Contact us | Words of Wisdom </title>
+        <link href="./Resources/pod.css" rel="stylesheet">
+    </head>
+
+    <body class="contact-us-page">
+        <header>
+            <div class="logo">
+                <img src="./Resources/Images/Podcast Cover.png" alt="A logo (a podcast mic) of Words of Wisdom With Apostle Glen Monama.">
+                <a href="./index.html"><h3> Words of Wisdom </h3></a>
+            </div>
+            <nav>
+                <a href="./contact-us.html"><h3> Contact us </h3>
+                <a href="./contact-us.html"><i class="fa-solid fa-headset fa-lg" style="color: #1893F8;"></i></a>
+            </nav>
+        </header>
+
+        <main>
+            <div class="contact-img">
+                <div>
+                    <h2> "It cannot be that everything that happens in your life is explainable." </h2>
+                    <h3> - Apostle Glen Monama </h3>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <h1> Contact us </h1>
+                <h2 class="subline"> We love to hear from you </h2>
+
+                <form action="" method="" id="contact-form" autocomplete="on">
+                    <section class="names">
+                        <div>
+                            <input type="text" name="firstName" placeholder="First name" required>
+                        </div>
+                        <div>
+                            <input type="text" name="lastName" placeholder="Last name" required>
+                        </div>
+                    </section>
+
+                    <section class="contact-info">
+                        <div>
+                            <input type="email" placeholder="Email" name="email" required autocomplete="on">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Phone no." name="phoneNo" required>
+                        </div>
+                    </section>
+
+                    <section class="inquiry">
+                    <div>
+                        <select name="inquiry" aria-placeholder="choose an option: type of inquiry" required>
+                            <option value="" id="disabled-select" disabled selected hidden> Choose type of inquiry...</option>
+                            <option value="technical"> Technical support </option>
+                            <option value="feedback"> Feedback </option>
+                            <option value="prayer-request"> Prayer request </option>
+                            <option value="other"> Other </option>
+                        </select>
+                    </div>
+                    </section>
+
+                    <section class="description" required>
+                    <div>
+                        <textarea type="text" name="description" required rows="5" cols="30" placeholder="Elaborate on issue..."></textarea>
+                    </div>
+                    </section>
+
+                    <input type="submit" id="submit">
+                </form>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="links">
+                <img src="./Resources/Images/Podcast Cover.png" alt="A logo (a podcast mic) of Words of Wisdom With Apostle Glen Monama.">
+                <ul>
+                    <li><a href="https://www.facebook.com/thesynagogues1/" target="_blank"><i class="fa-brands fa-facebook" style="color: #232323;"></a></i></li>
+                    <li><a href="https://www.instagram.com/thesynagogues.jwc/" target="_blank"><i class="fa-brands fa-instagram" style="color: #232323;"></a></i></li>
+                    <li><a href="https://www.youtube.com/@edah.tv1" target="_blank"><i class="fa-brands fa-youtube" style="color: #232323;"></a></i></li>
+                </ul>
+                <p> All content © 2025 Words of Wisdom With Apostle Glen Monama</p>
+            </div>
+        </footer>
+
+        <script src="./email.js"></script>
+        <script src="https://kit.fontawesome.com/9dcf9c1c58.js" crossorigin="anonymous"></script>
+    </body>
+</html>
